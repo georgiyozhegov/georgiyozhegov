@@ -1,14 +1,9 @@
 :root {
       --profile-image-size: 200px;
       --link-image-size: 50px;
-}
-
-#profile {
-      width: var(--profile-image-size);
-      height: var(--profile-image-size);
-      overflow: hidden;
-      margin-left: auto;
-      margin-right: auto;
+      --light-green: rgb(157, 222, 139);
+      --green: rgb(64, 165, 120);
+      --dark-green: rgb(0, 103, 105);
 }
 
 .icon {
@@ -18,8 +13,16 @@
       border-radius: 50%; /* circle shape */
 }
 
-.link {
+.contact {
       width: var(--link-image-size);
       height: var(--link-image-size);
       overflow: hidden;
+}
+
+#profile {
+      width: var(--profile-image-size);
+      height: var(--profile-image-size);
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
 }
