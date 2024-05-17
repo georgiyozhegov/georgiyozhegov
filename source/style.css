@@ -1,0 +1,16 @@
+:root {
+      --profile-image-size: 200px;
+}
+
+#profile-section {
+      width: var(--profile-image-size);
+      height: var(--profile-image-size);
+      overflow: hidden;
+}
+
+#profile-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* border-radius: 50%; /* circle shape */
+}
