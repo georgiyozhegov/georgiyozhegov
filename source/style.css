@@ -1,6 +1,6 @@
 :root {
-      --profile-image-size: 200px;
-      --link-image-size: 50px;
+      --profile-image-size: 128px;
+      --link-image-size: 48px;
       --light-green: rgb(157, 222, 139);
       --green: rgb(64, 165, 120);
       --dark-green: rgb(0, 103, 105);
@@ -10,11 +10,6 @@
 @font-face {
       font-family: "jmedium";
       src: url("../assets/jetbrains-medium.ttf");
-}
-
-@font-face {
-      font-family: "jbold";
-      src: url("../assets/jetbrains-bold.ttf");
 }
 
 .icon {
@@ -35,8 +30,8 @@
       display: flex;
       justify-content: space-between;
       margin-inline: auto;
-      margin-top: 20px;
-      padding: 30px;
+      padding: 5px;
+      margin: 20px;
       border-radius: calc(var(--profile-image-size) / 2);
       background-color: var(--light-green);
 }
@@ -47,8 +42,18 @@
       overflow: hidden;
 }
 
-#profile-name {
+#profile-label {
       color: var(--black);
       font-family: jmedium;
       margin: auto;
+}
+
+#links-label {
+      color: var(--black);
+      font-family: jmedium;
+      margin: auto;
+}
+
+body {
+      background-color: var(--dark-green);
 }
